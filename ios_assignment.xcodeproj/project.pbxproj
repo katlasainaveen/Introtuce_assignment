@@ -89,21 +89,61 @@
 			children = (
 				CA37A1DB25DBC0B700620082 /* AppDelegate.swift */,
 				CA37A1DD25DBC0B700620082 /* SceneDelegate.swift */,
-				CA37A1DF25DBC0B700620082 /* ViewController.swift */,
-				CA37A1E125DBC0B700620082 /* Main.storyboard */,
 				CA37A1E425DBC0B800620082 /* Assets.xcassets */,
 				CA37A1E625DBC0B800620082 /* LaunchScreen.storyboard */,
-				CA37A1E925DBC0B800620082 /* Info.plist */,
-				CA37A1F425DBC2AE00620082 /* Users_ViewController.swift */,
-				CA37A1F725DBC32300620082 /* User.swift */,
-				CA37A1FA25DBC4C200620082 /* Users_TableViewCell.swift */,
-				CA37A22925DBC7A600620082 /* Download_images.swift */,
-				CA37A23C25DBF30B00620082 /* Enroll_ViewController.swift */,
-				CA37A25125DBFC4500620082 /* Alert.swift */,
-				CA37A25B25DC1BD400620082 /* Segmented_CollectionViewCell.swift */,
+				CA7580EE25DC4BE700B8A492 /* Main */,
+				CA7580E925DC4B9600B8A492 /* Users */,
+				CA7580EC25DC4BC600B8A492 /* Enroll */,
+				CA7580ED25DC4BD100B8A492 /* Others */,
 				CA37A25F25DC2DF500620082 /* GoogleService-Info.plist */,
+				CA37A1E925DBC0B800620082 /* Info.plist */,
 			);
 			path = ios_assignment;
+			sourceTree = "<group>";
+		};
+		CA7580E925DC4B9600B8A492 /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				CA37A1F425DBC2AE00620082 /* Users_ViewController.swift */,
+				CA37A1F725DBC32300620082 /* User.swift */,
+				CA7580EA25DC4BB400B8A492 /* TableViewCell */,
+			);
+			path = Users;
+			sourceTree = "<group>";
+		};
+		CA7580EA25DC4BB400B8A492 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				CA37A1FA25DBC4C200620082 /* Users_TableViewCell.swift */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		CA7580EC25DC4BC600B8A492 /* Enroll */ = {
+			isa = PBXGroup;
+			children = (
+				CA37A23C25DBF30B00620082 /* Enroll_ViewController.swift */,
+			);
+			path = Enroll;
+			sourceTree = "<group>";
+		};
+		CA7580ED25DC4BD100B8A492 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				CA37A25125DBFC4500620082 /* Alert.swift */,
+				CA37A22925DBC7A600620082 /* Download_images.swift */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		CA7580EE25DC4BE700B8A492 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				CA37A25B25DC1BD400620082 /* Segmented_CollectionViewCell.swift */,
+				CA37A1DF25DBC0B700620082 /* ViewController.swift */,
+				CA37A1E125DBC0B700620082 /* Main.storyboard */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 		D0E7414E5BB8A2E1FB388873 /* Pods */ = {
