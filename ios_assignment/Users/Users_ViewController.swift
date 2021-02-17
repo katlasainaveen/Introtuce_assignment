@@ -86,7 +86,7 @@ extension Users_ViewController: UITableViewDelegate, UITableViewDataSource {
     }
     
     func calculateAge(string: String) -> Int {
-        let comp = Calendar.current.dateComponents([.year], from: dateFormatter.date(from: string)!, to: Date())
+        let comp = Calendar.current.dateComponents([.year], from: dateFormatter.date(from: string) ?? Date(), to: Date())
         return comp.year!
     }
     

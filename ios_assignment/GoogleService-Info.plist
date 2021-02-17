@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>264287922600-kurliial1a242vsujt7bjlbf6nmc0cmt.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.264287922600-kurliial1a242vsujt7bjlbf6nmc0cmt</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDT3Rr8dG0eEzzgdZKtb1JpyfGxp0cX4Lc</string>
+	<key>GCM_SENDER_ID</key>
+	<string>264287922600</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>katla.sai.naveen.ios-assignment.ios-assignment</string>
+	<key>PROJECT_ID</key>
+	<string>ios-assignment-82718</string>
+	<key>STORAGE_BUCKET</key>
+	<string>ios-assignment-82718.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:264287922600:ios:6522432130d2388d74d59d</string>
+</dict>
+</plist>

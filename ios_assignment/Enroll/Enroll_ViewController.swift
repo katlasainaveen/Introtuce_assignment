@@ -129,7 +129,7 @@ class Enroll_ViewController: UIViewController {
         let img_data = self.profileImage.image?.jpegData(compressionQuality: 1)
         
         Firestore.firestore().collection("Users").document((phone_number.text)!).getDocument { (document, err) in
-            if ((document?.exists) == nil) {
+            if let document = document, document.exists {
                 self.Alert(title: "Phone Number already Exists", message: "Duplication not allowed")
                 self.add_user.isEnabled = true
                 self.activity.alpha = 0
